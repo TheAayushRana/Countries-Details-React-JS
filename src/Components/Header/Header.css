@@ -1,0 +1,8 @@
+.countries__header{
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+.countries__header__logo h3{
+    font-weight: 800;
+}

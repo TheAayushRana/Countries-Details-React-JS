@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+:root {
+  --font-family: "Nunito Sans", sans-serif;
+  --color-main: #fafafa;
+  --color-header: #fff;
+  --color-text: #000000;
+  --box-shadow: 0 0 8px rgb(0 0 0 / 5%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.flex__row {
+  display: flex;
+  flex-direction: row;
+}
+.flex__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__padding {
+  padding: 1rem 3rem;
+}
+
+dl,
+ol,
+ul {
+  text-align: center;
+  margin: 0rem;
+}
